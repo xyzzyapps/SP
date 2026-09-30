@@ -5,10 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "sp"
 version = "0.1.0"
-description = "Minimum video editor REPL: sexpistol s-expressions over OpenTimelineIO and FFmpeg"
+description = "SP — minimum video editor REPL: sexpistol s-expressions over OpenTimelineIO and FFmpeg"
 readme = "README.md"
 requires-python = ">=3.13"
-license = { text = "MIT" }
+license = "PolyForm-Noncommercial-1.0.0"
 dependencies = ["opentimelineio>=0.18"]
 
 [project.optional-dependencies]

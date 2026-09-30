@@ -1,4 +1,4 @@
-# SPEC — `sp`: minimum video editor REPL
+# SPEC — SP (package `sp`): minimum video editor REPL
 
 Software Requirements Specification and architecture reference.
 Audience: any agent or developer picking this project up later.

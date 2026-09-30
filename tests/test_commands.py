@@ -152,7 +152,7 @@ def test_render_of_empty_timeline_errors(ctx: ReplContext):
 def test_doctor_reports_environment(ctx: ReplContext):
     text = dispatch(ctx, "doctor")
     assert text is not None
-    assert "sp 0.1.0" in text
+    assert "SP 0.1.0" in text
     assert "opentimelineio" in text
     assert "renderer" in text and "fake" in text
     assert "timeline" in text

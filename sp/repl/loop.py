@@ -36,7 +36,7 @@ InputFn = Callable[[str], str]
 #: Result/error printers.
 Printer = Callable[[str], None]
 
-BANNER = f"""sp {__version__} — minimum video editor repl
+BANNER = f"""SP {__version__} — minimum video editor repl
 type (help) for commands, (quit) to exit; every session logs to sp.log"""
 
 

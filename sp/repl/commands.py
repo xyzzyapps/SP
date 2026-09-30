@@ -185,7 +185,7 @@ def _tool_line(exe: str, args: list[str]) -> str:
 def _doctor(ctx: ReplContext) -> str:
     """(doctor) — report interpreter, OTIO and external tool availability."""
     lines = [
-        f"sp {__version__}",
+        f"SP {__version__}",
         f"  {'python':<16} {platform.python_version()} ({platform.platform()})",
         f"  {'opentimelineio':<16} {otio.__version__}",
         "tools:",

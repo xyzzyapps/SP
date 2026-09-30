@@ -1,4 +1,4 @@
-# sp — minimum video editor REPL
+# SP — minimum video editor REPL
 
 An IRB-like REPL for editing video by typing s-expressions.
 Three wheels do the heavy lifting — nothing is reinvented:
@@ -8,7 +8,7 @@ Three wheels do the heavy lifting — nothing is reinvented:
 - **FFmpeg** → probe + render (auto-switches to **toucan** when `toucan-render` is on PATH)
 
 ```
-sp 0.1.0 — minimum video editor repl
+SP 0.1.0 — minimum video editor repl
 type (help) for commands, (quit) to exit; every session logs to sp.log
 sp> (open "tests/fixtures/a.mp4")
 opened: tests/fixtures/a.mp4: 640x360 @25fps, 4.00s, h264 + audio
@@ -94,4 +94,9 @@ sp/repl/      FSM, command table, REPL loop + CLI entry
 tests/        fakes + unit + integration tests
 ```
 
-MIT licensed.
+## License
+
+Licensed under the **[PolyForm Noncommercial License 1.0.0](LICENSE)** —
+noncommercial use only; see `LICENSE` for the full terms.
+
+> Required Notice: Copyright Xyzzy Apps
